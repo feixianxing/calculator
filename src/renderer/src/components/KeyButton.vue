@@ -72,7 +72,7 @@ const props = defineProps({
 .white{
     background-color: var(--font-blue);
     &:hover{
-        box-shadow: 0px 0px 16px var(--font-blue);
+        box-shadow: 0px 0px 16px var(--button-blue-shadow);
     }
     .content{
         color: var(--font-white);
@@ -91,5 +91,6 @@ const props = defineProps({
 
 .double-height{
     height: calc(var(--button-height) * 2 + var(--key-row-gap));
+    z-index: 999;
 }
 </style>
